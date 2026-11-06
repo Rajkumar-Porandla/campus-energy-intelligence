@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.playwright-mcp/
+.agents/
+.antideploy/
+
+# Raw heavy datasets exceeding GitHub's 100MB file limit
+data/raw/bdg2/panther/electricity.csv
+data/raw/bdg2/panther/weather.csv

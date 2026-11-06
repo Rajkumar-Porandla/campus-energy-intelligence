@@ -1,0 +1,286 @@
+{
+  "dataset": {
+    "name": "Synthetic Campus Energy Usage Dataset",
+    "url": "https://www.kaggle.com/datasets/thanujagr4/synthetic-campus-energy-usage-dataset",
+    "version": 1,
+    "synthetic": true,
+    "publisher_description": "Synthetic daily electricity consumption data for campus buildings."
+  },
+  "source_file": "synthetic_campus_energy_usage.csv",
+  "row_count": 300,
+  "column_count": 4,
+  "columns": [
+    {
+      "name": "Date",
+      "inferred_type": "date",
+      "non_empty_values": 300,
+      "missing_values": 0
+    },
+    {
+      "name": "Building_Name",
+      "inferred_type": "string identifier",
+      "non_empty_values": 300,
+      "missing_values": 0
+    },
+    {
+      "name": "Energy_Consumption_kWh",
+      "inferred_type": "integer",
+      "non_empty_values": 300,
+      "missing_values": 0
+    },
+    {
+      "name": "Usage_Level",
+      "inferred_type": "categorical",
+      "non_empty_values": 300,
+      "missing_values": 0
+    }
+  ],
+  "schema_mapping": {
+    "timestamp": "Date",
+    "building": "Building_Name",
+    "consumption": "Energy_Consumption_kWh",
+    "usage_level": "Usage_Level"
+  },
+  "measurement": {
+    "unit_claimed_by_column": "kWh",
+    "semantics": "daily_interval_energy_claimed_by_publisher_unverified",
+    "semantics_note": "Daily interval energy is the publisher's apparent intent; the CSV cannot independently establish meter semantics or unit.",
+    "expected_frequency": "daily"
+  },
+  "quality": {
+    "exact_duplicate_rows": 0,
+    "duplicate_building_timestamp_key_count": 17,
+    "duplicate_building_timestamp_rows": 17,
+    "duplicate_keys_with_conflicting_consumption_count": 17,
+    "invalid_timestamps": 0,
+    "invalid_consumption_values": 0,
+    "negative_consumption_values": 0,
+    "zero_consumption_values": 0,
+    "missing_values_by_column": {
+      "Date": 0,
+      "Building_Name": 0,
+      "Energy_Consumption_kWh": 0,
+      "Usage_Level": 0
+    }
+  },
+  "timestamps": {
+    "valid_observation_count": 300,
+    "unique_timestamps": 208,
+    "date_range": {
+      "start": "2025-01-01T00:00:00",
+      "end": "2025-12-28T00:00:00"
+    },
+    "sampling_frequency": {
+      "expected": "daily",
+      "most_common_observed_gap_days": 2.0,
+      "gap_days_distribution": {
+        "1.0": 37,
+        "2.0": 46,
+        "3.0": 33,
+        "4.0": 25,
+        "5.0": 21,
+        "6.0": 15,
+        "7.0": 18,
+        "8.0": 10,
+        "9.0": 12,
+        "10.0": 13,
+        "11.0": 6,
+        "12.0": 5,
+        "13.0": 6,
+        "14.0": 6,
+        "15.0": 2,
+        "16.0": 3,
+        "17.0": 1,
+        "18.0": 4,
+        "19.0": 3,
+        "20.0": 1,
+        "21.0": 1,
+        "22.0": 3,
+        "23.0": 1,
+        "24.0": 2,
+        "26.0": 1,
+        "27.0": 1,
+        "28.0": 1,
+        "44.0": 1
+      }
+    }
+  },
+  "buildings": {
+    "Admin Office": {
+      "row_count": 64,
+      "distinct_timestamps": 60,
+      "median_gap_days": 4.0,
+      "most_common_gap_days": 2.0,
+      "gap_days_distribution": {
+        "1.0": 3,
+        "2.0": 12,
+        "3.0": 8,
+        "4.0": 7,
+        "5.0": 10,
+        "7.0": 3,
+        "8.0": 6,
+        "10.0": 2,
+        "11.0": 2,
+        "12.0": 2,
+        "13.0": 1,
+        "16.0": 1,
+        "19.0": 1,
+        "44.0": 1
+      },
+      "date_range": {
+        "start": "2025-01-05T00:00:00",
+        "end": "2025-12-27T00:00:00"
+      },
+      "expected_daily_observations_in_span": 357,
+      "missing_daily_observations_in_span": 297,
+      "daily_coverage_ratio_in_span": 0.16806722689075632
+    },
+    "Classroom Block": {
+      "row_count": 54,
+      "distinct_timestamps": 52,
+      "median_gap_days": 4.0,
+      "most_common_gap_days": 1.0,
+      "gap_days_distribution": {
+        "1.0": 10,
+        "2.0": 3,
+        "3.0": 8,
+        "4.0": 5,
+        "5.0": 1,
+        "6.0": 2,
+        "7.0": 2,
+        "8.0": 2,
+        "9.0": 2,
+        "10.0": 2,
+        "11.0": 2,
+        "13.0": 2,
+        "14.0": 4,
+        "15.0": 1,
+        "17.0": 1,
+        "18.0": 3,
+        "20.0": 1
+      },
+      "date_range": {
+        "start": "2025-01-06T00:00:00",
+        "end": "2025-12-27T00:00:00"
+      },
+      "expected_daily_observations_in_span": 356,
+      "missing_daily_observations_in_span": 304,
+      "daily_coverage_ratio_in_span": 0.14606741573033707
+    },
+    "Computer Lab": {
+      "row_count": 56,
+      "distinct_timestamps": 52,
+      "median_gap_days": 5.0,
+      "most_common_gap_days": 2.0,
+      "gap_days_distribution": {
+        "1.0": 5,
+        "2.0": 10,
+        "3.0": 3,
+        "4.0": 4,
+        "5.0": 4,
+        "6.0": 4,
+        "7.0": 7,
+        "9.0": 4,
+        "10.0": 3,
+        "13.0": 1,
+        "14.0": 1,
+        "22.0": 2,
+        "23.0": 1,
+        "27.0": 1,
+        "28.0": 1
+      },
+      "date_range": {
+        "start": "2025-01-01T00:00:00",
+        "end": "2025-12-25T00:00:00"
+      },
+      "expected_daily_observations_in_span": 359,
+      "missing_daily_observations_in_span": 307,
+      "daily_coverage_ratio_in_span": 0.14484679665738162
+    },
+    "Hostel": {
+      "row_count": 64,
+      "distinct_timestamps": 60,
+      "median_gap_days": 4.0,
+      "most_common_gap_days": 2.0,
+      "gap_days_distribution": {
+        "1.0": 8,
+        "2.0": 10,
+        "3.0": 10,
+        "4.0": 6,
+        "5.0": 4,
+        "6.0": 3,
+        "7.0": 2,
+        "8.0": 1,
+        "9.0": 2,
+        "10.0": 4,
+        "12.0": 2,
+        "13.0": 1,
+        "14.0": 1,
+        "15.0": 1,
+        "16.0": 1,
+        "22.0": 1,
+        "24.0": 1,
+        "26.0": 1
+      },
+      "date_range": {
+        "start": "2025-01-08T00:00:00",
+        "end": "2025-12-28T00:00:00"
+      },
+      "expected_daily_observations_in_span": 355,
+      "missing_daily_observations_in_span": 295,
+      "daily_coverage_ratio_in_span": 0.16901408450704225
+    },
+    "Library": {
+      "row_count": 62,
+      "distinct_timestamps": 59,
+      "median_gap_days": 4.5,
+      "most_common_gap_days": 1.0,
+      "gap_days_distribution": {
+        "1.0": 11,
+        "2.0": 11,
+        "3.0": 4,
+        "4.0": 3,
+        "5.0": 2,
+        "6.0": 6,
+        "7.0": 4,
+        "8.0": 1,
+        "9.0": 4,
+        "10.0": 2,
+        "11.0": 2,
+        "12.0": 1,
+        "13.0": 1,
+        "16.0": 1,
+        "18.0": 1,
+        "19.0": 2,
+        "21.0": 1,
+        "24.0": 1
+      },
+      "date_range": {
+        "start": "2025-01-03T00:00:00",
+        "end": "2025-12-28T00:00:00"
+      },
+      "expected_daily_observations_in_span": 360,
+      "missing_daily_observations_in_span": 301,
+      "daily_coverage_ratio_in_span": 0.1638888888888889
+    }
+  },
+  "building_count": 5,
+  "consumption": {
+    "valid_value_count": 300,
+    "minimum": 50.0,
+    "maximum": 497.0,
+    "mean": 286.58666666666664,
+    "median": 295.5,
+    "p25": 170.0,
+    "p75": 404.25,
+    "unit_claimed_by_column": "kWh"
+  },
+  "categorical_value_counts": {
+    "Usage_Level": {
+      "High": 114,
+      "Low": 87,
+      "Medium": 99
+    }
+  },
+  "assessment": "Not suitable for forecasting as-is: observations are sparse and irregular, and repeated building/date values conflict. Preserve the observations and clarify their meaning before modeling."
+}

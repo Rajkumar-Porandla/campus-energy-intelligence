@@ -1,0 +1,30 @@
+{
+  "source_file": "synthetic_campus_energy_usage.csv",
+  "dataset_version": 1,
+  "schema_mapping": {
+    "timestamp": "Date",
+    "building": "Building_Name",
+    "consumption": "Energy_Consumption_kWh",
+    "usage_level": "Usage_Level"
+  },
+  "input_rows": 300,
+  "output_rows": 300,
+  "rows_added_or_removed": 0,
+  "missing_timestamp_values": 0,
+  "invalid_timestamp_values": 0,
+  "missing_building_identifiers": 0,
+  "missing_consumption_values": 0,
+  "invalid_consumption_values": 0,
+  "negative_consumption_values": 0,
+  "zero_consumption_values": 0,
+  "duplicate_building_date_keys": 17,
+  "rows_in_duplicate_groups_retained": 34,
+  "additional_duplicate_rows_retained": 17,
+  "conflicting_building_date_keys": 17,
+  "imputation_performed": false,
+  "outlier_removal_performed": false,
+  "calendar_features": [
+    "month",
+    "day_of_week"
+  ]
+}

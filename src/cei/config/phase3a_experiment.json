@@ -1,0 +1,23 @@
+{
+  "dataset": "BDG2 UCF Panther canonical electricity and weather",
+  "site_id": "Panther",
+  "target": "energy_consumption",
+  "unit": "kWh",
+  "timestamp_semantics": "Ordered, timezone-naive source hourly index; no local-clock interpretation.",
+  "core_building_ids": [
+    "Panther_education_Alecia", "Panther_education_Annetta", "Panther_education_Aurora", "Panther_education_Cleopatra", "Panther_education_Diann", "Panther_education_Edna", "Panther_education_Emily", "Panther_education_Enriqueta", "Panther_education_Genevieve", "Panther_education_Gina", "Panther_education_Hugh", "Panther_education_Ivan", "Panther_education_Janis", "Panther_education_Jerome", "Panther_education_Jonathan", "Panther_education_Karri", "Panther_education_Mattie", "Panther_education_Misty", "Panther_education_Mohammad", "Panther_education_Neal", "Panther_education_Rosalie", "Panther_education_Scarlett", "Panther_education_Shelton", "Panther_education_Sophia", "Panther_education_Teofila", "Panther_education_Tina", "Panther_education_Vincent", "Panther_education_Violet", "Panther_education_Zelda"
+  ],
+  "partitions": {
+    "train": ["2016-01-01 00:00:00", "2016-12-31 23:00:00"],
+    "validation": ["2017-01-01 00:00:00", "2017-06-30 23:00:00"],
+    "test": ["2017-07-01 00:00:00", "2017-12-31 23:00:00"]
+  },
+  "horizons_hours": {"hourly": 1, "daily_profile": 24, "weekly_profile": 168},
+  "candidate_lookbacks_hours": [24, 48, 168],
+  "baseline_settings": {"persistence_period_hours": 1, "daily_seasonal_period_hours": 24, "weekly_seasonal_period_hours": 168},
+  "baseline_comparisons": {"hourly": "persistence", "daily_profile": "daily_seasonal_naive", "weekly_profile": "weekly_seasonal_naive"},
+  "required_primary_weather_columns": ["airTemperature", "dewTemperature", "windSpeed", "precipDepth1HR", "seaLvlPressure"],
+  "weather_validation": {"join_key": ["timestamp", "site_id"], "site_id": "Panther", "future_observations_available_at_origin_only": true, "source_fields": "Retained as source values; no imputation."},
+  "source_policy": "Read-only; preserve source readings, zeros, and missing values; no interpolation, imputation, aggregation, or rewrite.",
+  "phase_2_7_methodology": "docs/PHASE_2_7_ML_EXPERIMENTATION_SPEC.md"
+}

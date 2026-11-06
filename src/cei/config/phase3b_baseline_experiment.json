@@ -1,0 +1,11 @@
+{
+  "phase": "3B.1",
+  "training_partition": "train",
+  "evaluation_partition": "validation",
+  "mase_scaling_period_hours": 24,
+  "candidate_lookbacks_hours": [24, 48, 168],
+  "include_sensitivity": false,
+  "random_seed": null,
+  "test_evaluation": "not_run",
+  "approved_models": ["persistence", "daily_seasonal_naive", "weekly_seasonal_naive"]
+}

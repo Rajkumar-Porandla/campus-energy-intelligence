@@ -1,0 +1,389 @@
+{
+  "attribution": "Miller, C. et al. (2020). The Building Data Genome Project 2, energy meter data from the ASHRAE Great Energy Predictor III competition. Scientific Data 7, 368. https://doi.org/10.1038/s41597-020-00712-x",
+  "dataset_name": "Building Data Genome Project 2",
+  "date_range": {
+    "end": "2017-12-31 23:00:00",
+    "start": "2016-01-01 00:00:00"
+  },
+  "electricity": {
+    "all_selected_missing_count": 6130,
+    "all_selected_zero_count": 98000,
+    "core_missing_count": 1145,
+    "core_zero_count": 97670,
+    "date_end": "2017-12-31 23:00:00",
+    "date_start": "2016-01-01 00:00:00",
+    "duplicate_timestamp_count": 0,
+    "per_building": {
+      "Panther_education_Alecia": {
+        "invalid_numeric_count": 0,
+        "missing_count": 12,
+        "missing_pct": 0.06839945280437756,
+        "observations": 17544,
+        "zero_count": 3377
+      },
+      "Panther_education_Annetta": {
+        "invalid_numeric_count": 0,
+        "missing_count": 10,
+        "missing_pct": 0.05699954400364797,
+        "observations": 17544,
+        "zero_count": 3377
+      },
+      "Panther_education_Aurora": {
+        "invalid_numeric_count": 0,
+        "missing_count": 10,
+        "missing_pct": 0.05699954400364797,
+        "observations": 17544,
+        "zero_count": 3376
+      },
+      "Panther_education_Cleopatra": {
+        "invalid_numeric_count": 0,
+        "missing_count": 79,
+        "missing_pct": 0.45029639762881896,
+        "observations": 17544,
+        "zero_count": 3199
+      },
+      "Panther_education_Diann": {
+        "invalid_numeric_count": 0,
+        "missing_count": 12,
+        "missing_pct": 0.06839945280437756,
+        "observations": 17544,
+        "zero_count": 3379
+      },
+      "Panther_education_Edna": {
+        "invalid_numeric_count": 0,
+        "missing_count": 17,
+        "missing_pct": 0.09689922480620156,
+        "observations": 17544,
+        "zero_count": 3339
+      },
+      "Panther_education_Emily": {
+        "invalid_numeric_count": 0,
+        "missing_count": 12,
+        "missing_pct": 0.06839945280437756,
+        "observations": 17544,
+        "zero_count": 3321
+      },
+      "Panther_education_Enriqueta": {
+        "invalid_numeric_count": 0,
+        "missing_count": 41,
+        "missing_pct": 0.23369813041495668,
+        "observations": 17544,
+        "zero_count": 3330
+      },
+      "Panther_education_Genevieve": {
+        "invalid_numeric_count": 0,
+        "missing_count": 387,
+        "missing_pct": 2.2058823529411766,
+        "observations": 17544,
+        "zero_count": 3377
+      },
+      "Panther_education_Gina": {
+        "invalid_numeric_count": 0,
+        "missing_count": 11,
+        "missing_pct": 0.06269949840401277,
+        "observations": 17544,
+        "zero_count": 3352
+      },
+      "Panther_education_Hugh": {
+        "invalid_numeric_count": 0,
+        "missing_count": 12,
+        "missing_pct": 0.06839945280437756,
+        "observations": 17544,
+        "zero_count": 3376
+      },
+      "Panther_education_Ivan": {
+        "invalid_numeric_count": 0,
+        "missing_count": 12,
+        "missing_pct": 0.06839945280437756,
+        "observations": 17544,
+        "zero_count": 3377
+      },
+      "Panther_education_Janis": {
+        "invalid_numeric_count": 0,
+        "missing_count": 13,
+        "missing_pct": 0.07409940720474237,
+        "observations": 17544,
+        "zero_count": 3380
+      },
+      "Panther_education_Jerome": {
+        "invalid_numeric_count": 0,
+        "missing_count": 10,
+        "missing_pct": 0.05699954400364797,
+        "observations": 17544,
+        "zero_count": 3376
+      },
+      "Panther_education_Jonathan": {
+        "invalid_numeric_count": 0,
+        "missing_count": 12,
+        "missing_pct": 0.06839945280437756,
+        "observations": 17544,
+        "zero_count": 4012
+      },
+      "Panther_education_Karri": {
+        "invalid_numeric_count": 0,
+        "missing_count": 333,
+        "missing_pct": 1.8980848153214773,
+        "observations": 17544,
+        "zero_count": 3305
+      },
+      "Panther_education_Mattie": {
+        "invalid_numeric_count": 0,
+        "missing_count": 12,
+        "missing_pct": 0.06839945280437756,
+        "observations": 17544,
+        "zero_count": 3374
+      },
+      "Panther_education_Misty": {
+        "invalid_numeric_count": 0,
+        "missing_count": 20,
+        "missing_pct": 0.11399908800729594,
+        "observations": 17544,
+        "zero_count": 3237
+      },
+      "Panther_education_Mohammad": {
+        "invalid_numeric_count": 0,
+        "missing_count": 11,
+        "missing_pct": 0.06269949840401277,
+        "observations": 17544,
+        "zero_count": 3336
+      },
+      "Panther_education_Neal": {
+        "invalid_numeric_count": 0,
+        "missing_count": 10,
+        "missing_pct": 0.05699954400364797,
+        "observations": 17544,
+        "zero_count": 3377
+      },
+      "Panther_education_Quintin": {
+        "invalid_numeric_count": 0,
+        "missing_count": 4985,
+        "missing_pct": 28.414272685818514,
+        "observations": 17544,
+        "zero_count": 330
+      },
+      "Panther_education_Rosalie": {
+        "invalid_numeric_count": 0,
+        "missing_count": 20,
+        "missing_pct": 0.11399908800729594,
+        "observations": 17544,
+        "zero_count": 3373
+      },
+      "Panther_education_Scarlett": {
+        "invalid_numeric_count": 0,
+        "missing_count": 10,
+        "missing_pct": 0.05699954400364797,
+        "observations": 17544,
+        "zero_count": 3292
+      },
+      "Panther_education_Shelton": {
+        "invalid_numeric_count": 0,
+        "missing_count": 12,
+        "missing_pct": 0.06839945280437756,
+        "observations": 17544,
+        "zero_count": 3377
+      },
+      "Panther_education_Sophia": {
+        "invalid_numeric_count": 0,
+        "missing_count": 10,
+        "missing_pct": 0.05699954400364797,
+        "observations": 17544,
+        "zero_count": 3303
+      },
+      "Panther_education_Teofila": {
+        "invalid_numeric_count": 0,
+        "missing_count": 11,
+        "missing_pct": 0.06269949840401277,
+        "observations": 17544,
+        "zero_count": 3377
+      },
+      "Panther_education_Tina": {
+        "invalid_numeric_count": 0,
+        "missing_count": 10,
+        "missing_pct": 0.05699954400364797,
+        "observations": 17544,
+        "zero_count": 3357
+      },
+      "Panther_education_Vincent": {
+        "invalid_numeric_count": 0,
+        "missing_count": 12,
+        "missing_pct": 0.06839945280437756,
+        "observations": 17544,
+        "zero_count": 3378
+      },
+      "Panther_education_Violet": {
+        "invalid_numeric_count": 0,
+        "missing_count": 12,
+        "missing_pct": 0.06839945280437756,
+        "observations": 17544,
+        "zero_count": 3258
+      },
+      "Panther_education_Zelda": {
+        "invalid_numeric_count": 0,
+        "missing_count": 12,
+        "missing_pct": 0.06839945280437756,
+        "observations": 17544,
+        "zero_count": 3378
+      }
+    },
+    "row_count_core": 508776,
+    "row_count_sensitivity": 17544,
+    "timestamp_count_per_building": 17544
+  },
+  "license": "CC BY-SA 4.0 for GitHub-sourced files, applied conservatively pending author clarification. The BDG2 Zenodo v1.0 record declares CC BY 4.0; no file-specific license resolution was found.",
+  "output_files": {
+    "electricity_core.csv": {
+      "local_path": "data/processed/bdg2/panther/electricity_core.csv",
+      "sha256": "13cb0556da3a56fbd0eaacc6177c9e078ad42bc02e092f40df4b5dabc2881c8d",
+      "size_bytes": 31489901
+    },
+    "electricity_sensitivity_quintin.csv": {
+      "local_path": "data/processed/bdg2/panther/electricity_sensitivity_quintin.csv",
+      "sha256": "302076f87ff6fd7423ac97cf3783575584a28b055d047d0c323ead892307a14e",
+      "size_bytes": 1083080
+    },
+    "weather.csv": {
+      "local_path": "data/processed/bdg2/panther/weather.csv",
+      "sha256": "bf34dd1fb1fbc5c00754d1869c4388c9353dac8d19094288dcac7739510f50cb",
+      "size_bytes": 1106135
+    }
+  },
+  "sampling_frequency": "hourly",
+  "site_id": "Panther",
+  "source_files": {
+    "electricity.csv": {
+      "expected_lfs_sha256": "039d909d8981e2d69eaeb366144e6ab7e84fa5e7e216aee42bddd95384a66418",
+      "local_path": "data/raw/bdg2/panther/electricity.csv",
+      "original_path": "data/meters/raw/electricity.csv",
+      "sha256": "039d909d8981e2d69eaeb366144e6ab7e84fa5e7e216aee42bddd95384a66418",
+      "size_bytes": 174239039,
+      "source_url": "https://github.com/buds-lab/building-data-genome-project-2/blob/master/data/meters/raw/electricity.csv"
+    },
+    "metadata.csv": {
+      "expected_lfs_sha256": "992d0b29f24f96ad4332bc4dbb534b7bdd7dd2689aad093f94e93068ecddca02",
+      "local_path": "data/raw/bdg2/panther/metadata.csv",
+      "original_path": "data/metadata/metadata.csv",
+      "sha256": "992d0b29f24f96ad4332bc4dbb534b7bdd7dd2689aad093f94e93068ecddca02",
+      "size_bytes": 272024,
+      "source_url": "https://github.com/buds-lab/building-data-genome-project-2/blob/master/data/metadata/metadata.csv"
+    },
+    "weather.csv": {
+      "expected_lfs_sha256": "a8189f1c6acdf3b9933a9e6354b8e7c1278cd56a7075929623a17565d44f04bd",
+      "local_path": "data/raw/bdg2/panther/weather.csv",
+      "original_path": "data/weather/weather.csv",
+      "sha256": "a8189f1c6acdf3b9933a9e6354b8e7c1278cd56a7075929623a17565d44f04bd",
+      "size_bytes": 19457782,
+      "source_url": "https://github.com/buds-lab/building-data-genome-project-2/blob/master/data/weather/weather.csv"
+    }
+  },
+  "source_size_total_bytes": 193968845,
+  "validation": {
+    "building_metadata_mapping_valid": true,
+    "core_and_sensitivity_separate": true,
+    "core_building_count": 29,
+    "core_output_schema": [
+      "timestamp",
+      "building_id",
+      "site_id",
+      "energy_consumption"
+    ],
+    "phase_2_5_all_checks_match": true,
+    "phase_2_5_comparison": {
+      "all_30_missing_count": {
+        "matches": true,
+        "migration": 6130,
+        "phase_2_5_audit": 6130
+      },
+      "all_30_zero_count": {
+        "matches": true,
+        "migration": 98000,
+        "phase_2_5_audit": 98000
+      },
+      "core_missing_count": {
+        "matches": true,
+        "migration": 1145,
+        "phase_2_5_audit": 1145
+      },
+      "weather_missing_airTemperature": {
+        "matches": true,
+        "migration": 3,
+        "phase_2_5_audit": 3
+      },
+      "weather_missing_cloudCoverage": {
+        "matches": true,
+        "migration": 7542,
+        "phase_2_5_audit": 7542
+      },
+      "weather_missing_dewTemperature": {
+        "matches": true,
+        "migration": 3,
+        "phase_2_5_audit": 3
+      },
+      "weather_missing_precipDepth1HR": {
+        "matches": true,
+        "migration": 9,
+        "phase_2_5_audit": 9
+      },
+      "weather_missing_precipDepth6HR": {
+        "matches": true,
+        "migration": 16898,
+        "phase_2_5_audit": 16898
+      },
+      "weather_missing_seaLvlPressure": {
+        "matches": true,
+        "migration": 323,
+        "phase_2_5_audit": 323
+      },
+      "weather_missing_windDirection": {
+        "matches": true,
+        "migration": 499,
+        "phase_2_5_audit": 499
+      },
+      "weather_missing_windSpeed": {
+        "matches": true,
+        "migration": 0,
+        "phase_2_5_audit": 0
+      }
+    },
+    "sensitivity_building": "Panther_education_Quintin",
+    "weather_separate": true
+  },
+  "weather": {
+    "aligned_with_electricity": true,
+    "duplicate_timestamp_count": 0,
+    "missing_by_feature": {
+      "airTemperature": {
+        "count": 3,
+        "pct": 0.01709986320109439
+      },
+      "cloudCoverage": {
+        "count": 7542,
+        "pct": 42.9890560875513
+      },
+      "dewTemperature": {
+        "count": 3,
+        "pct": 0.01709986320109439
+      },
+      "precipDepth1HR": {
+        "count": 9,
+        "pct": 0.05129958960328317
+      },
+      "precipDepth6HR": {
+        "count": 16898,
+        "pct": 96.31782945736434
+      },
+      "seaLvlPressure": {
+        "count": 323,
+        "pct": 1.8410852713178294
+      },
+      "windDirection": {
+        "count": 499,
+        "pct": 2.844277245782034
+      },
+      "windSpeed": {
+        "count": 0,
+        "pct": 0.0
+      }
+    },
+    "row_count": 17544
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "checksum_ledger": {
+    "accepted_reports": {
+      "data/reports/bdg2/panther/dataset_manifest.json": "4265e095d450937e880f4c8c643722d461cb5050ae6ca0d3ec05030f8fddde5f",
+      "data/reports/bdg2/panther/migration_report.json": "0885019fef2f6823b0ae47edfd5145598218cead7714b4d26aeaa685d56cdd42",
+      "data/reports/bdg2/panther/phase3a_corrected_validation.json": "017e0c7c3dbd9e1fbd7a882c8833b46975c7f03b26873d9e8c99b38acbc38228",
+      "data/reports/bdg2/panther/phase3a_final_validation.json": "845c73e429fa3bd38e50f53d71961e2e57be5167246a04e7de968647e7e141c3",
+      "data/reports/bdg2/panther/phase3b2_candidate_recursive_validation.json": "d15f06e47c163642934484361600d010d28401624b7c9070494bd53ba311e24f",
+      "data/reports/bdg2/panther/phase3b3_anomaly_remediated_validation.json": "e400244a4db4209dd4fdd4ab544c2df48427dd876b0b04d06c4a3a44c44e2575",
+      "data/reports/bdg2/panther/phase3b_baseline_mase_audit_validation_v2.json": "95c33e83b1dc374bed4e25a6cfc85c55e8415a88ff12c2a5fd8afeeeb63a978e",
+      "data/reports/bdg2/panther/phase3c_integrated_research_synthesis_remediated.json": "66fa3fdceb99545cc8fa479aa3a7144075674f794f90fee823881832e681bcd1"
+    },
+    "historical_reports": {
+      "data/reports/bdg2/panther/phase3b2_candidate_validation.json": "e0fa9784703e72cca658947777c9966ceb211be779eead4979b442890c91faa0",
+      "data/reports/bdg2/panther/phase3b3_anomaly_validation.json": "be9f621fd1fc3851d1e8fab69bc56a69a70304ff604ebee053eddae3f9fdb309",
+      "data/reports/bdg2/panther/phase3b_baseline_mase_audit_validation.json": "061c6662963a8ff4b9b945f6c0ca39ed19194eebe3e182de6dde834147700520",
+      "data/reports/bdg2/panther/phase3b_baseline_validation.json": "386be9922c24829c795d21851b667675ca9f96f657dc1338930f108665392e29",
+      "data/reports/bdg2/panther/phase3c_integrated_research_synthesis.json": "4599210c9deb9206d5e6c1b82dd2700d4a0e926ac8227ed7d105ad849d830552"
+    },
+    "prior_phase3d_outputs": {
+      "data/reports/bdg2/panther/phase3d_reproducibility_manifest.json": "e18101a19f9f6af64603e4c2da832aac27fe56d671f45ad2c3bbdd96010e24ee",
+      "docs/PHASE_3D_FINAL_RESEARCH_REPORT.md": "2a6ab0323c33010026597aa058fd80602de169714b3cc1c604f0d7aed9819d8c",
+      "docs/REPRODUCIBILITY_PLAYBOOK.md": "74de2982415e9e61f3bc33ef6063cafdf7fb8387481fc88524003afc1ae21a85"
+    },
+    "protected_configs": {
+      "src/cei/config/bdg2_panther.json": "7796fdd7e117f4f78615b49858bcf5ec0a41d00db1e00e04845ac65115010c1c",
+      "src/cei/config/dataset_schema.json": "4d2af6c3a74bd11ff0bf287ca80769cbec2356f777af32fa689000d12cda8c55",
+      "src/cei/config/phase3a_experiment.json": "a6583b89556848f01a249f9dd6f5c4b225aea49a7fcd484a2081c0afe1615856",
+      "src/cei/config/phase3b2_candidate_experiment.json": "299f7314907ef4c10a2fe17fb0fd9fa8069ae66eae59bc8ad7d12ce6b186dab2",
+      "src/cei/config/phase3b3_anomaly_experiment.json": "e1a158c7846ec71a199eb794a2c1ce86724bdfeb7529cb850efae9af7a2a1607",
+      "src/cei/config/phase3b_baseline_experiment.json": "cc67f112d05b8b58188c27e94569840bb1ad5e47978ca0e36a263dc128f687ad"
+    },
+    "protected_datasets": {
+      "data/processed/bdg2/panther/electricity_core.csv": "13cb0556da3a56fbd0eaacc6177c9e078ad42bc02e092f40df4b5dabc2881c8d",
+      "data/processed/bdg2/panther/electricity_sensitivity_quintin.csv": "302076f87ff6fd7423ac97cf3783575584a28b055d047d0c323ead892307a14e",
+      "data/processed/bdg2/panther/weather.csv": "bf34dd1fb1fbc5c00754d1869c4388c9353dac8d19094288dcac7739510f50cb",
+      "data/raw/bdg2/panther/electricity.csv": "039d909d8981e2d69eaeb366144e6ab7e84fa5e7e216aee42bddd95384a66418",
+      "data/raw/bdg2/panther/metadata.csv": "992d0b29f24f96ad4332bc4dbb534b7bdd7dd2689aad093f94e93068ecddca02",
+      "data/raw/bdg2/panther/weather.csv": "a8189f1c6acdf3b9933a9e6354b8e7c1278cd56a7075929623a17565d44f04bd"
+    },
+    "protected_docs": {
+      "docs/PHASE_2_7_ML_EXPERIMENTATION_SPEC.md": "d3246d3ede70323564cdb49059448c7ee94425c2dcc270cb3555b01ff0c39ce6",
+      "docs/PHASE_3C_INTEGRATED_RESEARCH_SYNTHESIS.md": "b78f2c23708e22eff7724f7d70b9721b3d7aa87a3c9921e52f7bf6470aedc05e",
+      "docs/PHASE_3C_INTEGRATED_RESEARCH_SYNTHESIS_REMEDIATED.md": "9d94cd49e9e030c8a268769bef11e0b84895dc198f1a87132fa725704b05d880"
+    }
+  },
+  "deterministic_reproduction_checks": {
+    "phase3a_core_building_count": 29,
+    "phase3a_coverage_rows_verified": 783,
+    "phase3a_in_memory_parity": "passed",
+    "phase3a_test_coverage_only_rows": 261,
+    "phase3a_timestamp_count": 17544,
+    "phase3a_train_validation_coverage_rows": 522,
+    "phase3b1_baseline_rows_verified": 261,
+    "phase3b1_in_memory_parity": "passed",
+    "phase3b2_candidate_rows_verified": 783,
+    "phase3b2_invariants": "passed",
+    "phase3b2_n_jobs": {
+      "random_forest": 1,
+      "xgboost": 1
+    },
+    "phase3b2_random_seed": 42,
+    "phase3b3_core_rows_verified": 522,
+    "phase3b3_invariants": "passed",
+    "phase3b3_mask_parity_cells_verified": 60,
+    "phase3b3_n_jobs": {
+      "isolation_forest": 1,
+      "lof_novelty": 1
+    },
+    "phase3b3_random_seed": 42,
+    "phase3b3_sensitivity_rows_verified": 18,
+    "phase3b3_threshold_monotonicity_series_verified": 180,
+    "phase3c_in_memory_parity": "passed",
+    "phase3c_report_version_verified": "3C-remediated-v1"
+  },
+  "execution": {
+    "generated_at_utc": "2026-11-04T06:25:50Z",
+    "package_versions": {
+      "joblib": "1.6.0",
+      "numpy": "2.4.6",
+      "pandas": "3.1.0",
+      "pytest": "8.4.2",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.17.1",
+      "statsmodels": "0.15.0",
+      "xgboost": "3.2.0"
+    },
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "python_version": "3.11.15"
+  },
+  "ground_truth_anomaly_labels": "none",
+  "phase": "3D",
+  "protected_artifact_counts": {
+    "accepted_reports": 8,
+    "historical_reports": 5,
+    "prior_phase3d_outputs": 3,
+    "protected_configs": 6,
+    "protected_datasets": 6,
+    "protected_docs": 3,
+    "total_protected_files": 28
+  },
+  "report_lineage": [
+    {
+      "accepted_reports": [
+        "data/reports/bdg2/panther/dataset_manifest.json",
+        "data/reports/bdg2/panther/migration_report.json"
+      ],
+      "config": "src/cei/config/bdg2_panther.json",
+      "phase": "2.6",
+      "script": "scripts/migrate_bdg2.py",
+      "superseded_reports": []
+    },
+    {
+      "accepted_reports": [
+        "data/reports/bdg2/panther/phase3a_corrected_validation.json",
+        "data/reports/bdg2/panther/phase3a_final_validation.json"
+      ],
+      "config": "src/cei/config/phase3a_experiment.json",
+      "notes": "phase3a_final_validation.json and phase3a_corrected_validation.json have identical core coverage counts across all 783 rows (522 train/validation rows + 261 test coverage-only rows); phase3a_corrected_validation.json adds shortest-lookback coverage reduction fields and exclusion precedence documentation.",
+      "phase": "3A",
+      "script": "scripts/run_phase3a_validation.py",
+      "superseded_reports": []
+    },
+    {
+      "accepted_reports": [
+        "data/reports/bdg2/panther/phase3b_baseline_mase_audit_validation_v2.json"
+      ],
+      "config": "src/cei/config/phase3b_baseline_experiment.json",
+      "phase": "3B.1",
+      "script": "scripts/run_phase3b_baselines.py",
+      "superseded_reports": [
+        "data/reports/bdg2/panther/phase3b_baseline_validation.json",
+        "data/reports/bdg2/panther/phase3b_baseline_mase_audit_validation.json"
+      ]
+    },
+    {
+      "accepted_reports": [
+        "data/reports/bdg2/panther/phase3b2_candidate_recursive_validation.json"
+      ],
+      "config": "src/cei/config/phase3b2_candidate_experiment.json",
+      "phase": "3B.2",
+      "script": "scripts/run_phase3b2_candidates.py",
+      "superseded_reports": [
+        "data/reports/bdg2/panther/phase3b2_candidate_validation.json"
+      ]
+    },
+    {
+      "accepted_reports": [
+        "data/reports/bdg2/panther/phase3b3_anomaly_remediated_validation.json"
+      ],
+      "config": "src/cei/config/phase3b3_anomaly_experiment.json",
+      "phase": "3B.3",
+      "script": "scripts/run_phase3b3_anomaly.py",
+      "superseded_reports": [
+        "data/reports/bdg2/panther/phase3b3_anomaly_validation.json"
+      ]
+    },
+    {
+      "accepted_reports": [
+        "data/reports/bdg2/panther/phase3c_integrated_research_synthesis_remediated.json",
+        "docs/PHASE_3C_INTEGRATED_RESEARCH_SYNTHESIS_REMEDIATED.md"
+      ],
+      "config": null,
+      "phase": "3C",
+      "script": "scripts/run_phase3c_synthesis.py",
+      "superseded_reports": [
+        "data/reports/bdg2/panther/phase3c_integrated_research_synthesis.json",
+        "docs/PHASE_3C_INTEGRATED_RESEARCH_SYNTHESIS.md"
+      ]
+    },
+    {
+      "accepted_reports": [
+        "data/reports/bdg2/panther/phase3d_reproducibility_manifest_remediated.json",
+        "docs/PHASE_3D_FINAL_RESEARCH_REPORT_REMEDIATED.md",
+        "docs/REPRODUCIBILITY_PLAYBOOK_REMEDIATED.md"
+      ],
+      "config": null,
+      "phase": "3D",
+      "script": "scripts/run_phase3d_reproducibility.py",
+      "superseded_reports": [
+        "data/reports/bdg2/panther/phase3d_reproducibility_manifest.json",
+        "docs/PHASE_3D_FINAL_RESEARCH_REPORT.md",
+        "docs/REPRODUCIBILITY_PLAYBOOK.md"
+      ]
+    }
+  ],
+  "report_version": "3D-remediated-v1",
+  "status": "reproducibility_verified_validation_only",
+  "test_evaluation": "not_run",
+  "title": "Reproducibility Manifest & Provenance Ledger (Remediated)",
+  "unused_phase1_placeholder_packages": [
+    "src/cei/analytics",
+    "src/cei/intelligence",
+    "src/cei/visualization"
+  ]
+}

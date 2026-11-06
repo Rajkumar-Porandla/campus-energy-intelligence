@@ -1,0 +1,47 @@
+{
+  "phase": "3B.3",
+  "report_version": "3B.3-remediated-v1",
+  "training_partition": "train",
+  "evaluation_partition": "validation",
+  "test_evaluation": "not_run",
+  "random_seed": 42,
+  "include_sensitivity_separately": true,
+  "sensitivity_building_id": "Panther_education_Quintin",
+  "feature_modes": ["raw_consumption", "seasonal_deviation"],
+  "seasonal_reference_period_hours": 168,
+  "deviation_lags_hours": [1, 24],
+  "operating_point_quantiles": {
+    "0.5pct": 0.995,
+    "1.0pct": 0.99,
+    "2.0pct": 0.98
+  },
+  "feature_space_semantics": {
+    "raw_consumption": "All three detectors evaluate the identical 1D raw consumption feature [energy_consumption] over identical eligible timestamps.",
+    "seasonal_deviation": "All three detectors share the identical 24-hour causal lookback eligibility mask, but statistical_zscore is intentionally a univariate reference baseline scoring 1D |slot_zscore|, whereas isolation_forest and lof_novelty evaluate the 3D vector [slot_zscore, lag_1h_scaled_diff, lag_24h_scaled_diff]. Comparisons in seasonal_deviation therefore compare a univariate marginal seasonal baseline against multivariate seasonal-plus-ramp detectors on the same eligible hours, not identical feature dimensionality."
+  },
+  "models": {
+    "statistical_zscore": {
+      "feature_scope": "univariate_primary_feature",
+      "scale_floor_fraction": 0.1,
+      "epsilon": 1e-6
+    },
+    "isolation_forest": {
+      "feature_scope": "full_mode_feature_vector",
+      "n_estimators": 100,
+      "max_samples": "auto",
+      "contamination": "auto",
+      "n_jobs": 1
+    },
+    "lof_novelty": {
+      "feature_scope": "full_mode_feature_vector",
+      "duplicate_handling": "full_empirical_multiplicity_with_positive_reachability_floor",
+      "min_reachability_floor": 0.001,
+      "n_neighbors": 35,
+      "contamination": "auto",
+      "metric": "minkowski",
+      "p": 2,
+      "n_jobs": 1
+    }
+  }
+}
+

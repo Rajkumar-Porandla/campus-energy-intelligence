@@ -1,0 +1,37 @@
+{
+  "phase": "3B.2",
+  "training_partition": "train",
+  "evaluation_partition": "validation",
+  "candidate_lookbacks_hours": [24, 48, 168],
+  "test_evaluation": "not_run",
+  "random_seed": 42,
+  "multi_step_strategy": "frozen_origin_recursive",
+  "feature_lags_hours": [1, 2, 3, 6, 12, 24, 48, 168],
+  "models": {
+    "sarima": {
+      "order": [1, 0, 0],
+      "seasonal_order_by_task": {
+        "hourly": [0, 0, 0, 0],
+        "daily_profile": [0, 0, 0, 0],
+        "weekly_profile": [0, 0, 0, 0]
+      },
+      "maxiter": 15
+    },
+    "random_forest": {
+      "n_estimators": 20,
+      "max_depth": 10,
+      "min_samples_leaf": 2,
+      "max_features": 1.0,
+      "n_jobs": 1
+    },
+    "xgboost": {
+      "n_estimators": 40,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "min_child_weight": 2,
+      "n_jobs": 1
+    }
+  }
+}

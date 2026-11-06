@@ -1,0 +1,20 @@
+{
+  "dataset": {
+    "name": "Synthetic Campus Energy Usage Dataset",
+    "url": "https://www.kaggle.com/datasets/thanujagr4/synthetic-campus-energy-usage-dataset",
+    "version": 1,
+    "synthetic": true,
+    "publisher_description": "Synthetic daily electricity consumption data for campus buildings."
+  },
+  "columns": {
+    "timestamp": "Date",
+    "building": "Building_Name",
+    "consumption": "Energy_Consumption_kWh",
+    "usage_level": "Usage_Level"
+  },
+  "timestamp_format": "%Y-%m-%d",
+  "expected_frequency": "daily",
+  "consumption_unit": "kWh",
+  "consumption_semantics": "daily_interval_energy_claimed_by_publisher_unverified"
+}
+
